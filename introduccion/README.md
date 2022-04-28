@@ -11,13 +11,11 @@ temas más avanzados que se presentan en la guía.
 ## Contenido
 
 1. [Conceptos](./conceptos.md)
-2. Glosario
+2. [Glosario](./glosario.md)
 3. Uso de la guía
 
 
 ---
 TODO:
-+ Terminar sección de conceptos
-+ Comenzar sección de glosario
 + Analizar que agregar en uso de la guía, uso por roles y nivel de expertise
   + Explicar que secciones le sirven a cada rol

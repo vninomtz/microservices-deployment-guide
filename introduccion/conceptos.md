@@ -67,10 +67,10 @@ continuación.
 
 ## Arquitectura de Microservicios
 
-Una Arquitectura de Microservicios (MSA, por sus siglas
-en inglés) como un estilo arquitectónico con un enfoque para desarrollar un aplicación
-como un conjunto de pequeños servicios, cada uno ejecutándose en su propio proceso y
-comunicándose mediante mecanismos ligueros Lewis y Fowler (2014). Las organizaciones
+Una Arquitectura de Microservicios (MSA, por sus siglas en inglés) como un 
+estilo arquitectónico con un enfoque para desarrollar un aplicación como un 
+conjunto de pequeños servicios, cada uno ejecutándose en su propio proceso y
+comunicándose mediante mecanismos ligueros [^5]. Las organizaciones
 han encontrado que adoptando una MSA pueden entregar software con mayor rapidez y
 adoptar nuevas tecnologías, además, brindan una mayor libertad para reaccionar y tomar
 diferentes decisiones permitiendo responder más rápido a los cambios inevitables que los
@@ -86,18 +86,17 @@ Los conceptos fundamentales detrás de una MSA no son nuevos, sin embargo, la im
 contemporánea que ha tenido si lo ha sido. Su adopción a sido impulsada en
 parte por los retos de escalabilidad, la falta de eficiencia, la lentitud de los desarrolladores
 y las dificultades para adoptar nuevas tecnologías que surgen cuando los sistemas complejos 
-están contenidos en una gran aplicación monolítica y se despliegan como tal Fowler
-(2016).
+están contenidos en una gran aplicación monolítica y se despliegan como tal [^6].
 
 Con una MSA una aplicación puede fácilmente escalar vertical y horizontalmente,
 la productividad y velocidad de los desarrolladores incrementa drásticamente y tecnologías
 viejas pueden ser ser intercambiadas con facilidad con las más nuevas. Sin embargo, una
-MSA introduce retos por si misma: un ecosistema exitoso y escalable require una infra-
-estructura estable y sofisticada; cambios radicales en la estructura organizativa de una
+MSA introduce retos por si misma: un ecosistema exitoso y escalable require una 
+infraestructura estable y sofisticada; cambios radicales en la estructura organizativa de una
 empresa para permitir las nuevas estructuras de equipos que se derivan de la adopción de
 esta arquitectura; finalmente uno de los mayores retos es la necesidad de estandarización
 de la arquitectura de los servicios así como sus requisitos para garantizar la confianza y la
-disponibilidad Fowler (2016).
+disponibilidad [^6].
 
 ### Beneficios
 
@@ -115,12 +114,12 @@ disponibilidad Fowler (2016).
 Dada la importancia de la madurez del despliegue en los microservicios, la actualización
 constante de cada servicio y la necesidad de automatización, se ha comprobado que la
 implantación de una cultura DevOps junto con sus prácticas y herramientas cubre los
-requisitos de esta arquitectura (Bolscher y Daneva, 2019).
+requisitos de esta arquitectura [^7].
 
 Podemos definir a DevOps como un conjunto de principios y prácticas que permiten una
 mejor comunicación y colaboración entre las partes interesadas relevantes para especificar,
 desarrollar y operar productos y servicios de software y sistemas y mejoras continuas en
-todos los aspectos del ciclo de vida (IEEE, 2021).
+todos los aspectos del ciclo de vida [^8].
 
 El término DevOps evolucionó a partir de la disponibilidad de herramientas de crea-
 ción, empaquetado y despliegue de aplicaciones totalmente automatizadas, junto con el
@@ -130,7 +129,7 @@ preparadas para utilizar esas herramientas de forma eficaz.
 Podemos definir a DevOps como un conjunto de principios y prácticas que permiten una
 mejor comunicación y colaboración entre las partes interesadas relevantes para especificar,
 desarrollar y operar productos y servicios de software y sistemas y mejoras continuas en
-todos los aspectos del ciclo de vida (IEEE, 2021).
+todos los aspectos del ciclo de vida [^8].
 
 ### Principios
 
@@ -150,13 +149,6 @@ todos los aspectos del ciclo de vida (IEEE, 2021).
 + Monitoreo
 
 
----
-TODO:
-+ Terminar de agregar citas como notas al pie
-+ Agregar más conceptos que se vayan a usar en la guía (ver si hay más)
-
-
-
 
 [^1]: Couloris, G., Dollimore, J., y Kindberg, T. (1994). Distributed systems:
 Concepts and design 2nd ed. Addison-Wesley, 1 (99), 4
@@ -166,3 +158,11 @@ Media, Inc
 Media, Inc
 [^4]: Team, I. C. (2021, 5). Soa vs. microservices: What’s the difference? | ibm. Consultado de
 https://www.ibm.com/cloud/blog/soa-vs-microservices
+[^5]: Lewis, J., y Fowler, M. (2014, 3). Microservices. Consultado de https://martinfowler.com/articles/microservices.html
+[^6]: Fowler, S. J. (2016). Production-ready microservices: building 
+standardized systems across an engineering organization. O’Reilly Media, Inc.
+[^7]: Bolscher, R., y Daneva, M. (2019). Designing Software Architecture to 
+Support Continuous Delivery and DevOps: A Systematic Literature Review. En 
+Proceedings of the 14th international conference on software technologies (pp. 27–39)
+[^8]: IEEE. (2021). IEEE standard for devops: Building reliable and secure 
+systems including application build, package, and deployment. IEEE Std 2675-2021 , 1-91. doi: 10.1109/IEEESTD.2021.9415476

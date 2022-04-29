@@ -1,3 +1,7 @@
+% Guía de despliegue de microservicios
+% Victor Manuel Niño Martínez
+% Abril 2022
+
 # Guía para el despliegue de microservicios
 
 El desarrollo de software moderno requiere métodos agiles para desplegar y 
@@ -41,7 +45,7 @@ pero quieren implementar nuevas prácticas relacionadas con DevOps o sus princip
 + La guía puede ser usada para mejorar procesos existentes en la organización 
 alineandose a los principios referenciados.
 
-## Estructura
+## Formato y estructura
 
 La guía se encuentra estructurada tomando en cuenta un modelo de procesos para 
 la implementación de microservicios, para el modelado se utilizó SPEM [^2]. En 

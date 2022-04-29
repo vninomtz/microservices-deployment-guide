@@ -1,4 +1,4 @@
-# Conceptos
+# Fundamentos
 
 ## Sistemas distribuidos
 Un sistema distribuido es aquel en el cual componentes de hardware o software situados 

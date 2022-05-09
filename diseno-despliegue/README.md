@@ -32,7 +32,7 @@ descritas en la sección de [procesos/diseno](../procesos/diseno.md).
 ## Índice del contenido
 
 1. [Arquitectura de un sistema de microservicios](./arquitectura.md)
-2. [Estrategia de despliegue](./estrategia)
+2. [Estrategia de despliegue](./estrategia.md)
 3. [Tecnologías de infraestructura](./tecnologias-infraestructura.md)
-4. [Configuración de servicios](./configuracion)
-5. [Observabilidad de servicios](./observabilidad)
+4. [Configuración de servicios](./configuracion.md)
+5. [Observabilidad de servicios](./observabilidad.md)

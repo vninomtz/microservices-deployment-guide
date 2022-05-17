@@ -49,16 +49,16 @@ encuentran las siguientes, existen más de ellas pero se considera que
 estas son las que más presencia y más necesidades han cumplido en los
 proyectos de la industria.
 
-  Herramienta           Descripción                                                                                                                        Información
-  --------------------- ---------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------
-  GIT                   Open-source, Distributed version control system                                                                                    https://git-scm.com/
-  SVN                   Open-source, Version control system                                                                                                https://subversion.apache.org/
-  Mercurial             Open-source, Distributed version control system                                                                                    https://www.mercurial-scm.org/
-  Azure DevOps Server   Licenciado, Conjunto de herramientas de desarrollo de software en colaboración hospedadas en el entorno local, Plataforma DevOps   https://azure.microsoft.com/es-mx/services/devops/server/
-  ClearCase             Licenciado, Control y acceso a artefactos incluyendo código, requisitos, documentación etc.                                        https://www.ibm.com/products /rational-clearcase
-  GitHub                Repositorio de gestión de proyectos alojado en línea basada en GIT                                                                 https://github.com/
-  GitLab                Repositorio de gestión de proyectos alojado en línea basada en GIT, Plataforma DevOps                                              https://about.gitlab.com/
-  Bitbucket             Repositorio de gestión de proyectos alojado en línea basada en GIT                                                                 https://bitbucket.org/
+|  Herramienta          | Descripción                                                                                                                      |  Información                                                |
+|  ---------------------|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------ |
+|  GIT                  | Open-source, Distributed version control system                                                                                  | https://git-scm.com/                                        |
+|  SVN                  | Open-source, Version control system                                                                                              | https://subversion.apache.org/                              |
+|  Mercurial            | Open-source, Distributed version control system                                                                                  | https://www.mercurial-scm.org/                              |
+|  Azure DevOps Server  | Licenciado, Conjunto de herramientas de desarrollo de software en colaboración hospedadas en el entorno local, Plataforma DevOps | https://azure.microsoft.com/es-mx/services/devops/server/   |
+|  ClearCase            | Licenciado, Control y acceso a artefactos incluyendo código, requisitos, documentación etc.                                      | https://www.ibm.com/products/rational-clearcase             |
+|  GitHub               | Repositorio de gestión de proyectos alojado en línea basada en GIT                                                               | https://github.com/                                         |
+|  GitLab               | Repositorio de gestión de proyectos alojado en línea basada en GIT, Plataforma DevOps                                            | https://about.gitlab.com/                                   |
+|  Bitbucket            | Repositorio de gestión de proyectos alojado en línea basada en GIT                                                               | https://bitbucket.org/                                      |
 
 ## Recomendaciones 
 

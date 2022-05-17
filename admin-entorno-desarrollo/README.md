@@ -23,4 +23,4 @@ mostradas en la sección de [procesos/preparacion-plataforma](../procesos/prepar
 1. [Administración de la configuración](./admin-config.md)
 2. [Control de versiones](./control-versiones.md)
 3. [Administración de la construcción](./admin-construccion.md)
-4. [Administración de artefactos](./admin-artefactos)
+4. [Administración de artefactos](./admin-artefactos.md)

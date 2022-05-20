@@ -60,9 +60,9 @@ proyectos de la industria.
 |  GitLab               | Repositorio de gestión de proyectos alojado en línea basada en GIT, Plataforma DevOps                                            | https://about.gitlab.com/                                   |
 |  Bitbucket            | Repositorio de gestión de proyectos alojado en línea basada en GIT                                                               | https://bitbucket.org/                                      |
 
-## Recomendaciones 
+### Características 
 
-### GitHub
+#### GitHub
 
 - Revisión de código
 - Integración con otras herramientas
@@ -70,20 +70,20 @@ proyectos de la industria.
 - Mayor popularidad
 - Herramientas de construcción con servicios de terceros
 
-### GitLab
+#### GitLab
 
 - Revisión de código
 - Herramienta de construcción
 - Herramientas para más etapas del desarrollo
 - Auto Hospedaje en cualquier plan
 
-### Bitbucket
+#### Bitbucket
 
 - Revisión de código
 - Integración directa con Jira, Bamboo, Crucible y Jenkins
 - Hosting autogestionada con estructura de precios escalonada
 
-### Conclusiones
+### Recomendaciones
 
 Github es una plataforma que ofrece muchas más facilidades, está bien
 equipada para manejar proyectos personales o de pequeños equipos. GitLab
@@ -117,6 +117,8 @@ fuente [@PatternsSCB], algunos de ellos son:
 
 ### Recomendaciones 
 
-Dentro de estos patrones se el que más se adapta a los principios y
-prácticas DevOps como Integración Continua es .
+Dentro de estos patrones el que más se adapta a los principios y
+prácticas DevOps como Integración Continua es el desarrollo basado en 
+troncos. Paul Hammant tiene un sitio dedicado a este modelo en el que 
+puedes echarle un vistaso en [Trunk Based Development](https://trunkbaseddevelopment.com/) 
 

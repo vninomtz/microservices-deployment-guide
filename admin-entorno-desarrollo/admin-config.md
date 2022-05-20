@@ -21,7 +21,7 @@ configuración asociada. [@standarDevOps]
 -   Despliegues automatizados
 -   Verificación de la línea de base
 
-#### Beneficios
+### Beneficios
 
 - Facilita a las organizaciones el análisis del impacto debido al cambio de configuración
 - Permite el aprovisionamiento automatizado en diferentes sistemas como dev, QA y prod

@@ -237,6 +237,10 @@ obtenidos de [^1].
     arquitectura de microservicios ofrece (insertar cita a nuestro
     articulo)
 
+## Recursos
+
+- [Sam Newman: "Deploying And Testing Microservices"](https://www.youtube.com/watch?v=FotoHYyY8Bo)
+
 
 
 [^1]: Chris Richardson. Microservices patterns: with examples in Java. Simon and 

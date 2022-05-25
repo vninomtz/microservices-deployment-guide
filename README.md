@@ -8,10 +8,10 @@ date: Mayo 2022
 
 1. [Prólogo](./prologo.md)
 2. [Introducción](./introduccion/README.md)
-  2.1. [Fundamentos](./introduccion/fundamentos.md)
-   2.2. [Glosario](./introduccion/glosario.md)
+   1. [Fundamentos](./introduccion/fundamentos.md)
+   2. [Glosario](./introduccion/glosario.md)
 3. [Procesos](./procesos/README.md)
-   3.1. [Diseño](./procesos/diseno.md)
+   3.1 [Diseño](./procesos/diseno.md)
    3.2. [Preparación de la plataforma](./procesos/preparacion-plataforma.md)
 4. [Diseño del despliegue](./diseno-despliegue/README.md)
    4.1. [Arquitectura de un sistema de microservicios](./diseno-despliegue/arquitectura.md)

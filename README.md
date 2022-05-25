@@ -1,57 +1,34 @@
-% Guía de despliegue de microservicios
-% Victor Manuel Niño Martínez
-% Abril 2022
+---
+title: "Guía para el despliegue de microservicios"
+author: "Victor Niño"
+date: Mayo 2022
+---
 
-# Guía para el despliegue de microservicios
+## Tabla de contenido
 
-El desarrollo de software moderno requiere métodos agiles para desplegar y 
-escalar cada veza más demandados sistemas distribuidos. Los practicantes han 
-adoptado la arquitectura de microservicios para afrontar los retos generados
-por las demandas del software moderno. Sin embargo, la adopción de esta 
-arquitectura también crea retos técnicos y organizacionales, realentizando 
-potencialmente a los equipos de desarrollo y operaciones, que requieren más 
-tiempo y esfuerzo para implementar un proceso de despliegue de calidad que les
-permita liberar constantemente nuevas características a producción.
-La adopción de una cultura DevOps, junto con sus prácticas y herramientas, 
-mitigan algunos de estos nuevos retos. Este repositorio presenta la propuesta 
-de una guía para el despliegue de sistemas con una arquitectura de 
-microservicios, considerando las prácticas de una cultura DevOps, 
-proporcionando a los practicantes un camino base para comenzar a implementar 
-la plataforma necesaria para esta arquitectura. 
-
-## Objetivo
-
-Asistir a los Arquitectos de Software, Ingenieros de Software Ingenieros de 
-Infraestructura, Ingenieros de Confiabilidad del Sitio (SRE), desarrolladores, 
-equipos DevOps o a aquellos que tengan las responsabilidad de implementar la
-infraestructura y mecanismos de despliegue del sistema. 
-
-
-## Contenido
-
-La guía presentada en este repositorio propone prácticas, principios y 
-tecnologías encontradas a través de un Mapeo Sistemático de la Literatura 
-(MSL) [^1] y una revisión de literatura gris, estas tuvieron como objetivo la 
-identificación del proceso y practicas usadas en la industria para el 
-despliegue de una arquitectura basada en microservicios considerando principios 
-de una cultura DevOps.
-
-## Casos de uso
-
-+ La guía puede ser usada por aquellos que están en el proceso de migración de un 
-sistema monolítico a una arquitectura de microservicios.
-+ La guía puede ser usada por aquellos que ya implementaron esta arquitectura
-pero quieren implementar nuevas prácticas relacionadas con DevOps o sus principios.
-+ La guía puede ser usada para mejorar procesos existentes en la organización 
-alineandose a los principios referenciados.
-
-## Formato y estructura
-
-La guía se encuentra estructurada tomando en cuenta un modelo de procesos para 
-la implementación de microservicios, para el modelado se utilizó SPEM [^2]. En 
-cada sección se presentan principios, tareas, artefactos, tecnologías, 
-recomendaciones y recursos encontrados en la literatura.
-
-
-[^1]: [Microservices Deployment: A Systematic Mapping Study](https://ieeexplore.ieee.org/document/9653415)
-[^2]: [Software & Systems Process Engineering Meta-Model Specification](https://www.omg.org/spec/SPEM/2.0/PDF)
+1. [Prólogo](./prologo.md)
+2. [Introducción](./introduccion/README.md)
+   2.1. [Fundamentos](./introduccion/fundamentos.md)
+   2.2. [Glosario](./introduccion/glosario.md)
+3. [Procesos](./procesos/README.md)
+   3.1. [Diseño](./procesos/diseno.md)
+   3.2. [Preparación de la plataforma](./procesos/preparacion-plataforma.md)
+4. [Diseño del despliegue](./diseno-despliegue/README.md)
+   4.1. [Arquitectura de un sistema de microservicios](./diseno-despliegue/arquitectura.md)
+   4.2. [Estrategia de despliegue](./diseno-despliegue/estrategia.md)
+   4.3. [Tecnologías de infraestructura](./diseno-despliegue/tecnologias-infraestructura.md)
+   4.4. [Configuración de servicios](./diseno-despliegue/configuracion.md)
+   4.5. [Observabilidad de servicios](./diseno-despliegue/observabilidad.md)
+5. [Administración del entorno de desarrollo](./admin-entorno-desarrollo/README.md)
+   5.1. [Administración de la configuración](./admin-entorno-desarrollo/admin-config.md)
+   5.2. [Control de versiones](./admin-entorno-desarrollo/control-versiones.md)
+   5.3. [Administración de la construcción](./admin-entorno-desarrollo/admin-construccion.md)
+   5.4. [Administración de artefactos](./admin-entorno-desarrollo/admin-artefactos.md)
+6. [Pipeline de despliegue](./pipeline-despliegue/README.md)
+   6.1. [Integración Continua CI](./pipeline-despliegue/integracion-continua.md)
+   6.2. [Implementación de sistema de CI](./pipeline-despliegue/servidor-ci.md)
+   6.3. [Automatización de liberaciones](./pipeline-despliegue/automatizacion-liberaciones.md)
+   6.4. [Entrega Continua CD](./pipeline-despliegue/entrega-continua.md)
+7. [Administración de la infraestructura](./infraestructura/README.md)
+   7.1. [Administración de la infraestructura](./infraestructura/admin-infra.md)
+   7.2. [Infraestructura como código](./infraestructura/infra-como-codigo.md)

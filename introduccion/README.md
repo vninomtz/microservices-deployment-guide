@@ -20,9 +20,3 @@ sección *Uso de la guía*.
 1. [Fundamentos](./fundamentos.md)
 2. [Glosario](./glosario.md)
 3. Uso de la guía
-
-
----
-TODO:
-+ Analizar que agregar en uso de la guía, uso por roles y nivel de expertise
-  + Explicar que secciones le sirven a cada rol

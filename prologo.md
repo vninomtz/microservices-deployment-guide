@@ -1,26 +1,27 @@
 # Prólogo
 
-El desarrollo de software moderno requiere métodos agiles para desplegar y 
-escalar cada veza más demandados sistemas distribuidos. Los practicantes han 
+El desarrollo de software moderno requiere métodos agiles para desplegar y
+escalar cada vez más sistemas distribuidos con alta demanda. Los practicantes han
 adoptado la arquitectura de microservicios para afrontar los retos generados
-por las demandas del software moderno. Sin embargo, la adopción de esta 
-arquitectura también crea retos técnicos y organizacionales, realentizando 
-potencialmente a los equipos de desarrollo y operaciones, que requieren más 
+por las demandas del software moderno. Sin embargo, la adopción de esta
+arquitectura también crea retos técnicos y organizacionales, realentizando
+potencialmente a los equipos de desarrollo y operaciones, que requieren más
 tiempo y esfuerzo para implementar un proceso de despliegue de calidad que les
 permita liberar constantemente nuevas características a producción.
-La adopción de una cultura DevOps, junto con sus prácticas y herramientas, 
-mitigan algunos de estos nuevos retos. Este repositorio presenta la propuesta 
-de una guía para el despliegue de sistemas con una arquitectura de 
-microservicios, considerando las prácticas de una cultura DevOps, 
-proporcionando a los practicantes un camino base para comenzar a implementar 
-la plataforma necesaria para esta arquitectura. 
+La adopción de una cultura DevOps, junto con sus prácticas y herramientas,
+mitigan algunos de estos nuevos retos. Este repositorio presenta la propuesta
+de una guía para el despliegue de sistemas con una arquitectura de
+microservicios, considerando las prácticas de una cultura DevOps,
+proporcionando a los practicantes un camino base para comenzar a implementar
+la plataforma que una arquitectura de microservicios requiere.
 
 ## Objetivo
 
-Asistir a los Arquitectos de Software, Ingenieros de Software Ingenieros de 
+El objetivo de este repositorio es asistir a los Arquitectos de Software, Ingenieros de Software, Ingenieros de 
 Infraestructura, Ingenieros de Confiabilidad del Sitio (SRE), desarrolladores, 
-equipos DevOps o a aquellos que tengan las responsabilidad de implementar la
-infraestructura y mecanismos de despliegue del sistema. 
+equipos DevOps o a aquellos que tengan las responsabilidad de diseñar e implementar
+los procesos e infraestructura necesaria para el despliegue de sistemas con arquitectura
+de microservicios.
 
 ## Contenido
 
@@ -46,6 +47,19 @@ La guía se encuentra estructurada tomando en cuenta un modelo de procesos para
 la implementación de microservicios, para el modelado se utilizó SPEM [^2]. En 
 cada sección se presentan principios, tareas, artefactos, tecnologías, 
 recomendaciones y recursos encontrados en la literatura.
+
+**Sección 1 Introducción,** como se nombre lo indica es una introducción al tema de microservicios así como a los conceptos relacionados con este estilo arquitectónico, incluye un glosario que los lectores puden consultar para enter coceptos comúnes usados a lo largo de la guía.
+
+**Sección 2 Procesos,** en esta sección se presenta el modelado de las actividades y tareas utilizadas a lo largo de la guía, el moleado de los procesos fue realizado utilizando la notación de SPEM.
+
+**Sección 3 Diseño del despliegue,** en esta sección se incluyen las actividades y tareas que se deben llevar cabo en la etapa de diseño enfocadas al despliegue de microservicios, se cubren los patrones existentes del despliegue, tecnologías y prácticas comúnes.
+
+**Sección 4 Administración del entorno de desarrollo,** cubren las actividades y tareas que deben ser implementadas para el correcto desarrollo e integración de cambios en cada uno de los microservicios a desarrollar. Estas tareas son requisito para la siguiente sección *Pipeline de despliegue*.
+
+**Sección 5 Pipeline de despliegue,** es todo sobre las tareas que se deben implementar para liberar continuamente cambios a un ambiente de producción. Se describen las prácticas de *Integración y Entrega Continua*.
+
+**Sección 6 Administración de la infraestructura,** cubren actividades y prácticas  para el manejo de la infraestructura en la organización. Se incluyen prácticas como *Infraestructura como código*.
+
 
 [^1]: [Microservices Deployment: A Systematic Mapping Study](https://ieeexplore.ieee.org/document/9653415)
 [^2]: [Software & Systems Process Engineering Meta-Model Specification](https://www.omg.org/spec/SPEM/2.0/PDF)

@@ -54,7 +54,7 @@ lbros que involucran la construcción de microservicios.
 ## Indice de la sección
 
 1. [Diseño del despliegue](./diseno.md)
-2. [preparacion-plataforma.md](./preparacion-plataforma.md)
+2. [Preparación de la plataforma](./preparacion-plataforma.md)
 
 
 [^1]: [Software & systems process engineering meta-model specification](https://www.omg.org/spec/SPEM)

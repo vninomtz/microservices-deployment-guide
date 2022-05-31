@@ -56,3 +56,7 @@ pruebas), ¿convertimos la corrección de estos problemas en nuestra prioridad m
 - El sistema de despliegue funciona porque, como mínimo, se habrá utilizado en esta versión candidata al menos una vez en un entorno de desarrollo, una vez en la 
 etapa de pruebas de aceptación y una vez en un entorno de pruebas antes de que la candidata pudiera haber sido promovida a esta etapa.
 - El sistema de control de versiones tiene todo lo que necesitamos para desplegar, sin necesidad de intervención manual, porque ya hemos desplegado el sistema varias veces.
+
+## Ejemplo pipeline
+
+![Ejemplo pipeline](../imagenes/ejemplo-pipeline.png)

@@ -9,7 +9,7 @@ microservicios y finalmente la iteración para el diseño y planeación del
 despliegue del sistema. Es en esa última iteración en donde comenzará el 
 alcance de la presente guía.
 
-> Agregar diagrama 
+![Fase de diseño de la arquitectura](../imagenes/fase-diseno-arquitectura.png) 
 
 Dentro de de esta iteración se encuentran un conjunto de tareas que
 se describirán con mayor detalle en las secciones posteriores. Esta iteración 
@@ -18,4 +18,4 @@ los microservicios y esta decisión decidirá que tecnologías se usarán en las
 siguientes fases. A continuación se muestran las tareas y salidas esperadas de 
 cada una de ellas
 
-> Agregar diagrama
+![Iteración diseño y estrategia de despliegue](../imagenes/iteracion-diseno-plan-despliegue.png)

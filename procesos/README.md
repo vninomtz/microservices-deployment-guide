@@ -1,28 +1,22 @@
 # Procesos para la adopción de microservicios
 
-## ¿Por qué modelar?
+Para darle un orden darle un orden al conjunto de tareas y actividades, se decidió realizar un modelado del proceso sugerido para la implementación de una arquitectura de microservicios. Para el modelado se usó SPEM, un estándar para definir procesos de software. Como se menciona en la especificación oficial [^1], SPEM permite proveer una representación estandarizada y bibliotecas de contenido reutilizable, soporta desarrollo sistemático, administración y crecimiento de procesos de desarrollo, soporte de despliegue de contenido de métodos y procesos necesitados por configuraciones definidas, entre otros.
 
-> Profundizar en la importancia de los procesos, mejora la calidad.
-> El implementar una plataforma que soporta unar MSA involucra muchos recursos
-> ecnonómicos y humanos, hay que coordinar todo ese esfuerzo de alguna forma.
-> El modelado nos da un camino de como se debe comportar nuestro flujo de trabajo 
-> a lo largo del desarrollo.
+El alcance de SPEM está limitado deliberadamente a los elementos mínimos necesarios para definir cualquier proceso de desarrollo de software y sistemas, sin añadir características específicas para dominios o disciplinas de desarrollo particulares.
 
-> El proposito del modelado es dividir las actividades y tareas que se llevan 
-> a cabo al desplegar microservicios de tal manera que sea sencillo ubicar en que 
-> parte del proceso se ejecutan dichas tareas o actividades.
+SPEM utiliza la notación UML *Unified Modeling Language*, provee componentes que permiten representar de manera estandarizada métodos, ciclos de vida, roles, actividades, tareas y productos de trabajo que se usan en la ingeniería de software. Se utilizó en este documento la versión de SPEM 2.0, la cual se utiliza para definir los procesos de desarrollo de software, sistemas y sus componentes.
 
-## Definiciones
+## Notación
 
-### *Fase*
+![Notación de SPEM](../imagenes/SPEM_notacion.png)
 
-### *Iteración*
+**Fase:**
 
-### *Actividad*
+**Iteración:**
 
-### *Tarea* 
+**Actividad:**
 
-> Agregar diagrama UML para explicar como se componente las fase y jerarquias
+**Tarea:**
 
 ## Proceso general
 
@@ -55,9 +49,12 @@ en esta fase. Si quieres aprender a construir microservicios, te recomendamos qu
 utilices alguna de las referencias utilizadas en esta guía, algunas de estas son 
 lbros que involucran la construcción de microservicios.
 
-> Agregar imagen diagrama SPEM
+![Proceso para la implementación de una arquitectura de microservicios](../imagenes/proceso-adopcion-msa.png)
 
 ## Indice de la sección
 
 1. [Diseño del despliegue](./diseno.md)
 2. [preparacion-plataforma.md](./preparacion-plataforma.md)
+
+
+[^1]: [Software & systems process engineering meta-model specification](https://www.omg.org/spec/SPEM)

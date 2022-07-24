@@ -15,11 +15,10 @@ download_csl() {
 join_content () {
     mkdir "${BUILDDIR}" -p
     echo "Uniendo contenido"
-    # cat "${CONTENTDIR}/guia/prologo.md" > "${PATHTMP}" 
-    # echo "" >> "${PATHTMP}"
     cat "${CONTENTDIR}/guia/introduccion.md" > "${PATHTMP}"
     echo "" >> "${PATHTMP}"
-    cat "./procesos/README.md" "./procesos/diseno.md" "./procesos/preparacion-plataforma.md" >> "${PATHTMP}"
+    cat "${CONTENTDIR}/guia/procesos.md" >> "${PATHTMP}"
+    # cat "./procesos/README.md" "./procesos/diseno.md" "./procesos/preparacion-plataforma.md" >> "${PATHTMP}"
     echo "" >> "${PATHTMP}"
     cat "./diseno-despliegue/README.md" "./diseno-despliegue/arquitectura.md" "./diseno-despliegue/estrategia.md" "./diseno-despliegue/tecnologias-infraestructura.md" "./diseno-despliegue/configuracion.md" "./diseno-despliegue/observabilidad.md" >> "${PATHTMP}"
     echo "" >> "${PATHTMP}"

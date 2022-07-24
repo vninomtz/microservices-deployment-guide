@@ -251,7 +251,9 @@ de un tiempo de ciclo único.
 
 # Procesos para la adopción de microservicios
 
-Para darle un orden darle un orden al conjunto de tareas y actividades, se decidió realizar un modelado del proceso sugerido para la implementación de una arquitectura de microservicios. Para el modelado se usó SPEM, un estándar para definir procesos de software. Como se menciona en la especificación oficial [^1], SPEM permite proveer una representación estandarizada y bibliotecas de contenido reutilizable, soporta desarrollo sistemático, administración y crecimiento de procesos de desarrollo, soporte de despliegue de contenido de métodos y procesos necesitados por configuraciones definidas, entre otros.
+Para darle un orden darle un orden al conjunto de tareas y actividades, se decidió realizar un modelado del proceso sugerido para la implementación de una arquitectura de microservicios. Para el modelado se usó SPEM, un estándar para definir procesos de software. Como se menciona en la especificación oficial [^4], SPEM permite proveer una representación estandarizada y bibliotecas de contenido reutilizable, soporta desarrollo sistemático, administración y crecimiento de procesos de desarrollo, soporte de despliegue de contenido de métodos y procesos necesitados por configuraciones definidas, entre otros.
+
+[^4]: [Software & systems process engineering meta-model specification](https://www.omg.org/spec/SPEM)
 
 El alcance de SPEM está limitado deliberadamente a los elementos mínimos necesarios para definir cualquier proceso de desarrollo de software y sistemas, sin añadir características específicas para dominios o disciplinas de desarrollo particulares.
 
@@ -261,13 +263,16 @@ SPEM utiliza la notación UML *Unified Modeling Language*, provee componentes qu
 
 ![Notación de SPEM](../imagenes/SPEM_notacion.png)
 
-**Fase:**
+**Fase:** La fase representa un período significativo en un proyecto, que termina con un punto de control de gestión importante, un hito o un conjunto de
+Entregables.
 
-**Iteración:**
+**Iteración:** La iteración agrupa un conjunto de Actividades anidadas que se repiten más de una vez. Representa un importante elemento estructurador para organizar el trabajo en ciclos repetitivos. El concepto de Iteración puede asociarse a diferentes reglas en diferentes métodos.
 
-**Actividad:**
+**Proceso:** Un proceso es una actividad especial que describe una estructura para determinados tipos de proyectos de desarrollo o partes de ellos.
 
-**Tarea:**
+**Actividad:** Definición de un trabajo, elemento de planeación, una acción.
+
+**Tarea:** Una Definición de Tarea es un Elemento de Contenido de Método y una Definición de Trabajo que define el trabajo que realizan las instancias de Definición de Roles. Una Tarea está asociada a Productos de Trabajo de entrada y salida. Las entradas se diferencian en obligatorias y opcionales.
 
 ## Proceso general
 
@@ -302,13 +307,7 @@ lbros que involucran la construcción de microservicios.
 
 ![Proceso para la implementación de una arquitectura de microservicios](../imagenes/proceso-adopcion-msa.png)
 
-## Indice de la sección
-
-1. [Diseño del despliegue](./diseno.md)
-2. [Preparación de la plataforma](./preparacion-plataforma.md)
-
-
-[^1]: [Software & systems process engineering meta-model specification](https://www.omg.org/spec/SPEM)# Diseño de la arquitectura y planeación del despliegue
+### Diseño de la arquitectura y planeación del despliegue
 
 La fase de diseño de la arquitectura cuenta con un conjunto de iteraciones, una 
 iteración es un conjunto de tareas o actividades que se pueden realizar una o 
@@ -329,7 +328,8 @@ siguientes fases. A continuación se muestran las tareas y salidas esperadas de
 cada una de ellas
 
 ![Iteración diseño y estrategia de despliegue](../imagenes/iteracion-diseno-plan-despliegue.png)
-# Preparación plataforma para microservicios
+
+### Preparación plataforma para microservicios
 
 En esta fase se comienza la construcción de la infraestructura, procesos de 
 integración, despliegue de servicios y flujos de trabajo que soportarán la fase 
@@ -342,7 +342,7 @@ de la observabilidad.
 
 ![Fase de preparación del despliegue y construcción de los servicios](../imagenes/fase-prep-despliegue-construccion.png)
 
-## Configuración del pipeline de despliegue
+#### Configuración del pipeline de despliegue
 
 En esta iteración se realizan tres actividades principales las cuales tienen a 
 su vez un conjunto de tareas. En la figura se muestran las actividades, además 
@@ -366,7 +366,7 @@ para preparar la entrega de software en los diferentes ambientes.
 
 ![Actividades preparación entorno de entrega](../imagenes/preparacion-entorno-entrega.png)
 
-## Administración de la infraestructura
+#### Administración de la infraestructura
 
 En esta iteración figura 9 se realiza el manejo de la configuración de la
 infraestructura del sistema y se implementan prácticas como administración de 
@@ -374,7 +374,7 @@ la infraestructura y GitOps.
 
 ![Iteración administración de la infraestructura](../imagenes/iteracion-admin-infra.png)
 
-## Implementación de observabilidad de los servicios
+#### Implementación de observabilidad de los servicios
 
 En la última iteración se implementa el sistema de monitoreo para la
 obtención de métricas y trazabilidad. Además de el monitoreo se realiza la

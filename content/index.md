@@ -1047,24 +1047,23 @@ de principios y prácticas DevOps como: *Integración Continua (CI)* y *Entrega 
 En esta sección se presentan las tareas necesarias para implementar la práctica 
 de *Integración Continua* las cuales son indispensables para poder lograr entregar 
 continuamente software de calidad. Las subseciones descritas derivan de las tareas 
-mostradas en la sección de [procesos/preparacion-plataforma](../procesos/preparacion-plataforma.md)
+mostradas en la sección de [_Preparacion de la plataforma_](#preparacion-de-la-plataforma)
 
-## Índice del contenido
 
-1. [Administración de la configuración](./admin-config.md)
-2. [Control de versiones](./control-versiones.md)
-3. [Administración de la construcción](./admin-construccion.md)
-4. [Administración de artefactos](./admin-artefactos.md)
 ## Administración de la configuración
 
 ### Acerca de la tarea
+
 #### Nombre
+
 Configuration Management CM
 
 #### Tipo
+
 Proceso DevOps
 
 #### Propósito 
+
 Gestionar y controlar los elementos y las configuraciones del sistema a
 lo largo del ciclo de vida. La gestión de la configuración (CM) también
 gestiona la coherencia entre un producto y su definición de
@@ -1139,17 +1138,21 @@ en el tema se pueden consultar las fuentes referenciadas.
 - Gestionar la configuración del software que se está integrando continuamente.
 - Gestionar los cambios de configuración.
 - Realizar auditorías de CM
+
 ## Control de versiones
 
 ### Acerca de la tarea
 
 #### Nombre
+
 Source Code Management (SCM)
 
 #### Tipo
+
 Práctica DevOps
 
 #### Propósito 
+
 Mantener varias versiones de los archivos, de modo que cuando se
 modifica un archivo se puede seguir accediendo a las revisiones
 anteriores. También son un mecanismo a través del cual colaboran las
@@ -1263,16 +1266,21 @@ prácticas DevOps como Integración Continua es el desarrollo basado en
 troncos. Paul Hammant tiene un sitio dedicado a este modelo en el que 
 puedes echarle un vistaso en [Trunk Based Development](https://trunkbaseddevelopment.com/) 
 
+
 ## Administración de la construcción
 
 ### Acerca de la tarea
+
 #### Nombre:
+
 Build Management
 
 #### Tipo:
+
 Práctica DevOps
 
 #### Propósito: 
+
 Proceso para preparar el ambiente de construcción para montar todos los
 componentes de la aplicación software como un producto acabado y viable,
 apto para su finalidad. El código fuente, el compilado, dependencias y
@@ -1318,17 +1326,22 @@ este es el que permitirá automatizar el proceso de integración continua.
 - Crea una consistente estructura de directorios
 - Crea archivos de configuración para cada ambiente
 - Crea tipos de construcción para cada ambiente como (local, integración, QA, producción)
+
+
 ## Repositorio de artefactos
 
 ### Acerca de la tarea
 
 #### Nombre:
+
 Artifacts Repository Management
 
 #### Tipo:
+
 Práctica DevOps
 
 #### Proposito
+
 Los artefactos son archivos que se crean como resultado de un proceso de 
 desarrollo de software, estos pueden ser paquetes, contenedores, archivos de 
 configuración, documentos, entre otros. Estos artefactos son generados en la
@@ -1340,6 +1353,7 @@ mediante la centralización de los distintos artefactos generados en una sola ub
 Gracias a esto, se tiene mayor control sobre los artefactos y cómo se usan.
 
 #### Tipos de artefactos
+
 En una arquitectura de microservicios pueden almacenarse distintos tipos de artefactos 
 dependiendo del patron de despliegue usado. 
 - Imagenes de contenedores
@@ -1386,10 +1400,12 @@ dependiendo del patron de despliegue usado.
 - Reposilite (open source)
 
 ### Recomendaciones
+
 Si quieres profundizar en el tema de versionado te recomendamos que revises el artículo Best Practices for Artifact Versioning in Service-Oriented Systems [@bestPracticesArtifactSOA] 
 en el cual se presenta información extendida sobre el tema, sin embargo, te dejamos algunas recomendaciones básicas para comenzar. 
 
 #### Crear y publicar artefactos
+
 - Cada artefacto debe estar referenciado a un solo repositorio
 - Cada vez que se cree una nueva versión del artefacto automáticamente publiquela en su repositorio
 - Implemente políticas para limpiar automáticamente versiones antiguas de sus artefactos
@@ -1397,7 +1413,8 @@ en el cual se presenta información extendida sobre el tema, sin embargo, te dej
 - Si equipos u organizaciones externas estan consumiendo tus artefactos asegúrese que los estados son visibleas para todos ellos.
 
 #### Convenciones de nomenclatura de repositorios
-Puedes usar la estructura de cuatro partes que recomienda que recomienda JFrog [^1] la cual esta conformada de la siguiente manera:
+
+Puedes usar la estructura de cuatro partes que recomienda que recomienda JFrog [^5] la cual esta conformada de la siguiente manera:
 
 ```sh
 <equipo/claveProyecto>-<tecnología>-<madurez>-<localizador>
@@ -1407,37 +1424,29 @@ Puedes usar la estructura de cuatro partes que recomienda que recomienda JFrog [
 3. El nivel de madurez del artefacto, como las etapas de desarrollo, preparación o lanzamiento.
 4. El localizador, la topología física de los artefactos.
 
+[^5]: [Best Practices for Structuring and Naming Artifactory Repositories](https://jfrog.com/whitepaper/best-practices-structuring-naming-artifactory-repositories/) 
 
-
-
-
-
-[^1]: [Best Practices for Structuring and Naming Artifactory Repositories](https://jfrog.com/whitepaper/best-practices-structuring-naming-artifactory-repositories/) 
 
 # Pipeline de despliegue
-
-## Índice de la sección
-
-1. [Integración Continua CI](./integracion-continua.md)
-2. [Implementación de sistema de CI](./servidor-ci.md)
-3. [Automatización de liberaciones](./automatizacion-liberaciones.md)
-4. [Entrega Continua CD](./entrega-continua.md) 
-
 
 ## Integración Continua
 
 ### Acerca de la tarea
 
 #### Nombre:
+
 Continuous Integration (CI)
 
 #### Tipo:
+
 Práctica DevOps
 
 #### Roles encargados:
+
 - Encargado del despliegue
 
 #### Requisitos:
+
 - Implementación de Control de Versiones
 - Automatización proceso de construcción
 
@@ -1556,17 +1565,21 @@ Si la construcción ha fallado, perderá tiempo si baja el código del
 repositorio. Espere al cambio o ayude al desarrollador(es) a arreglar el
 fallo de compilación y luego baje el último código.
 
+
 ## Implementación sistema de Integración Continua CI
 
 ### Acerca de la tarea
 
 #### Nombre:
+
 Implementación de Servidor de CI
 
 #### Tipo: 
+
 Tarea
 
 #### Roles encargados:
+
 - Encargado de despliegue
 
 #### Propósito: 
@@ -1625,14 +1638,17 @@ usar GitLab CI y su ecosistema te permitirá salvarte de lidiar con muchas tecno
 - Si usas cualquier otro repositorio de versión de controles y no tienes la necesidad de realizar una gran cantidad de 
 despliegues puedes usar Travis CI, Circle CI o cualquiera de las otras opciones que cumpla con tus necesidades más específicas.
 
+
 ## Automatización de liberaciones
 
 ### Acerca de la tarea
 
 #### Tipo:
+
 Práctica DevOps
 
 #### Propósito 
+
 La automatización de implementaciones es lo que te permite implementar
 el software en entornos de prueba y producción con solo presionar un
 botón. La automatización es esencial para reducir el riesgo de
@@ -1642,6 +1658,7 @@ los equipos realicen pruebas integrales lo antes posible después de los
 cambios.
 
 ### Entradas
+
 - Paquetes creados mediante el proceso de integración continua (CI). Estos paquetes deben poder implementarse en cualquier entorno, 
 incluido el de producción.
 - Secuencias de comandos para configurar el entorno, implementar los paquetes y realizar una prueba de implementación (también conocida
@@ -1658,12 +1675,14 @@ de un host virtual desde una imagen ya preparada en un proveedor de servicios en
 5. Se realiza una prueba de implementación para asegurarse de que todos los servicios externos necesarios sean accesibles y que el sistema funcione.
 
 ### Prácticas
+
 - Usa el mismo proceso de implementación para todos los entornos, incluido el de producción.
 - Permite que cualquier persona con las credenciales necesarias implemente cualquier versión del artefacto en cualquier entorno a pedido de forma completamente automatizada.
 - Usa los mismos paquetes para cada entorno.
 - Permite recrear el estado de cualquier entorno a partir de la información almacenada en el control de versión.
 
 ### Recomendaciones
+
 Documentar el proceso de implementación existente en una herramienta común a la que tengan acceso los desarrolladores y equipos de operaciones.
 Trabaja para simplificar y automatizar el proceso de implementación de forma incremental.
 
@@ -1677,18 +1696,20 @@ Trabaja para simplificar y automatizar el proceso de implementación de forma in
 - Ejecución de procedimientos de prueba
 - Secuencia de comandos y automatización de las migraciones de bases de datos
 
+
 ## Entrega continua
 
 ### Acerca de la tarea
 
 #### Nombre:
+
 Continuous Delivery CD
 
 #### Tipo
+
 Práctica DevOps
 
 #### Propósito
-
 
 Automatización completa del proceso de entrega La entrega debe ser tan
 sencilla como seleccionar la versión de la aplicación y presionar un
@@ -1710,6 +1731,7 @@ de migración de la configuración e información de producción como parte
 del proceso de actualización y retroceso.
 
 ### Prácticas necesarias
+
 - Automatización de pruebas
 - Automatización de la implementación
 - Pruebas continuas

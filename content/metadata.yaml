@@ -1,0 +1,23 @@
+---
+# Datos
+title: "Guía para el despliegue de sistemas con arquitectura de microservicios"
+author: "Victor Manuel Niño Martínez"
+lang: es
+
+# Control
+toc: True
+
+# Formato
+documentclass: book
+geometry:
+  - top=1in
+  - bottom=1in
+  - right=0.5in
+  - left=1.5in
+fontsize: 12pt
+
+# Bibliografía
+bibliography: bibliography.bib
+link-citations: true
+---
+

@@ -29,7 +29,8 @@ join_content () {
     # cat "./pipeline-despliegue/README.md" "./pipeline-despliegue/integracion-continua.md" "./pipeline-despliegue/servidor-ci.md" "./pipeline-despliegue/automatizacion-liberaciones.md" "./pipeline-despliegue/entrega-continua.md" >> "${PATHTMP}"
     cat "${CONTENTDIR}/guia/pipeline.md" >> "${PATHTMP}"
     echo "" >> "${PATHTMP}"
-    cat "./infraestructura/README.md" "./infraestructura/admin-infra.md" "./infraestructura/infra-como-codigo.md" >> "${PATHTMP}"
+    cat "${CONTENTDIR}/guia/infraestructura.md" >> "${PATHTMP}"
+    # cat "./infraestructura/README.md" "./infraestructura/admin-infra.md" "./infraestructura/infra-como-codigo.md" >> "${PATHTMP}"
     echo "" >> "${PATHTMP}"
     echo "# Referencias" >> "${PATHTMP}"
 }

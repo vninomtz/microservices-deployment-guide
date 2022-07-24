@@ -1765,12 +1765,6 @@ etapa de pruebas de aceptación y una vez en un entorno de pruebas antes de que 
 
 # Administración de la infraestructura
 
-## Índice de la sección
-
-1. [Administración de la infraestructura](./admin-infra.md)
-2. [Infraestructura como código](./infra-como-codigo.md)
-
-
 ## Administración de la infraestructura
 
 ##### Nombre:
@@ -1838,6 +1832,7 @@ del ciclo de vida.
 -   Apoyar el aprovisionamiento de la infraestructura mediante
     mecanismos automatizados con archivos de definición legibles por
     máquina.
+
 
 ## Infraestructura como código
 

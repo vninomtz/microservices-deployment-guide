@@ -33,11 +33,11 @@ descritas en la sección de [_Procesos_](#procesos-para-la-adopcion-de-microserv
 
 ### Arquitectura
 
-![Capas de una arquitectura de microservicios](../imagenes/capas-msa.png)
+![Capas de una arquitectura de microservicios](./guia/images/capas-msa.png)
 
 ### Ecosistema
 
-![Entorno de producción](../imagenes/entorno-produccion-msa.png)
+![Entorno de producción](./guia/images/entorno-produccion-msa.png)
 
 #### Capa 1: Hardware
 

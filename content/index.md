@@ -261,7 +261,7 @@ SPEM utiliza la notación UML _Unified Modeling Language_, provee componentes qu
 
 ## Notación
 
-![Notación de SPEM](../imagenes/SPEM_notacion.png)
+![Notación de SPEM](./guia/images/SPEM_notacion.png)
 
 **Fase:** La fase representa un período significativo en un proyecto, que termina con un punto de control de gestión importante, un hito o un conjunto de
 Entregables.
@@ -305,7 +305,7 @@ en esta fase. Si quieres aprender a construir microservicios, te recomendamos qu
 utilices alguna de las referencias utilizadas en esta guía, algunas de estas son
 lbros que involucran la construcción de microservicios.
 
-![Proceso para la implementación de una arquitectura de microservicios](../imagenes/proceso-adopcion-msa.png)
+![Proceso para la implementación de una arquitectura de microservicios](./guia/images/proceso-adopcion-msa.png)
 
 ### Diseño de la arquitectura y planeación del despliegue
 
@@ -318,7 +318,7 @@ microservicios y finalmente la iteración para el diseño y planeación del
 despliegue del sistema. Es en esa última iteración en donde comenzará el
 alcance de la presente guía.
 
-![Fase de diseño de la arquitectura](../imagenes/fase-diseno-arquitectura.png)
+![Fase de diseño de la arquitectura](./guia/images/fase-diseno-arquitectura.png)
 
 Dentro de de esta iteración se encuentran un conjunto de tareas que
 se describirán con mayor detalle en las secciones posteriores. Esta iteración
@@ -327,7 +327,7 @@ los microservicios y esta decisión decidirá que tecnologías se usarán en las
 siguientes fases. A continuación se muestran las tareas y salidas esperadas de
 cada una de ellas
 
-![Iteración diseño y estrategia de despliegue](../imagenes/iteracion-diseno-plan-despliegue.png)
+![Iteración diseño y estrategia de despliegue](./guia/images/iteracion-diseno-plan-despliegue.png)
 
 ### Preparación plataforma para microservicios
 
@@ -340,7 +340,7 @@ funcionalidades. En la segunda, se muestra cómo se debe llevar el control de la
 infraestructura del sistema y finalmente en la tercera se implementan aspectos
 de la observabilidad.
 
-![Fase de preparación del despliegue y construcción de los servicios](../imagenes/fase-prep-despliegue-construccion.png)
+![Fase de preparación del despliegue y construcción de los servicios](./guia/images/fase-prep-despliegue-construccion.png)
 
 #### Configuración del pipeline de despliegue
 
@@ -351,20 +351,20 @@ actividad. En la primera figura 6, se prepara el entorno de desarrollo para la
 construcción de los servicios, estandarizando los procesos y forma de trabajar
 para cada uno de los distintos servicios a desarrollar.
 
-![Iteración configuración del pipeline de despliegue](../imagenes/iteracion-prep-pipeline.png)
+![Iteración configuración del pipeline de despliegue](./guia/images/iteracion-prep-pipeline.png)
 
-![Actividades preparación entorno de desarrollo](../imagenes/preparacion-entorno-desarrollo.png)
+![Actividades preparación entorno de desarrollo](./guia/images/preparacion-entorno-desarrollo.png)
 
 En la segunda actividad figura 7, se lleva a cabo el proceso para la
 automatización del proceso de construcción del software, es en esta actividad
 en donde se implementa la integración continua en conjunto con los principios DevOps.
 
-![Actividades preparación entorno de construcción](../imagenes/preparacion-entorno-construccion.png)
+![Actividades preparación entorno de construcción](./guia/images/preparacion-entorno-construccion.png)
 
 En la última actividad figura 8 se implementa la práctica de entrega continua
 para preparar la entrega de software en los diferentes ambientes.
 
-![Actividades preparación entorno de entrega](../imagenes/preparacion-entorno-entrega.png)
+![Actividades preparación entorno de entrega](./guia/images/preparacion-entorno-entrega.png)
 
 #### Administración de la infraestructura
 
@@ -372,7 +372,7 @@ En esta iteración figura 9 se realiza el manejo de la configuración de la
 infraestructura del sistema y se implementan prácticas como administración de
 la infraestructura y GitOps.
 
-![Iteración administración de la infraestructura](../imagenes/iteracion-admin-infra.png)
+![Iteración administración de la infraestructura](./guia/images/iteracion-admin-infra.png)
 
 #### Implementación de observabilidad de los servicios
 
@@ -380,7 +380,7 @@ En la última iteración se implementa el sistema de monitoreo para la
 obtención de métricas y trazabilidad. Además de el monitoreo se realiza la
 implementación de un sistema para el manejo de los logs.
 
-![Iteración observabilidad de servicios](../imagenes/iteracion-observabilidad.png)
+![Iteración observabilidad de servicios](./guia/images/iteracion-observabilidad.png)
 
 # Diseño del despliegue
 
@@ -417,11 +417,11 @@ descritas en la sección de [_Procesos_](#procesos-para-la-adopcion-de-microserv
 
 ### Arquitectura
 
-![Capas de una arquitectura de microservicios](../imagenes/capas-msa.png)
+![Capas de una arquitectura de microservicios](./guia/images/capas-msa.png)
 
 ### Ecosistema
 
-![Entorno de producción](../imagenes/entorno-produccion-msa.png)
+![Entorno de producción](./guia/images/entorno-produccion-msa.png)
 
 #### Capa 1: Hardware
 
@@ -1760,7 +1760,7 @@ etapa de pruebas de aceptación y una vez en un entorno de pruebas antes de que 
 
 ### Ejemplo pipeline
 
-![Ejemplo pipeline](../imagenes/ejemplo-pipeline.png)
+![Ejemplo pipeline](./guia/images/ejemplo-pipeline.png)
 
 
 # Administración de la infraestructura

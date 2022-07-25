@@ -331,5 +331,5 @@ etapa de pruebas de aceptación y una vez en un entorno de pruebas antes de que 
 
 ### Ejemplo pipeline
 
-![Ejemplo pipeline](../imagenes/ejemplo-pipeline.png)
+![Ejemplo pipeline](./guia/images/ejemplo-pipeline.png)
 

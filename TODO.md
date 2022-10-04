@@ -1,8 +1,9 @@
 # Todo
 
-- [ ] Agregar justificación de por qué usar markdown y alojar la guía en github al README.md raíz
+- [ ] Mostar la información de cada tarea en forma de una tabla en la sección *Acerca de la tarea*, se ve mal los subheaders para la información con poco contenido.
 
 ## Genearal
+
 - [ ] Crear scripts para generar archivo pdf y html
 
 ## Glosario

@@ -1,35 +1,15 @@
----
-title: "Guía para el despliegue de sistemas con arquitectura de microservicios"
-author: "Victor Niño"
-date: Mayo 2022
----
+# Microservice Deployment Guide
 
-## Tabla de contenido
+La Microservice Deployment Guide (MDG) es un proyecto de investigación
+que tiene como objetivo recolectar las prácticas, principios y tecnologías
+utilizadas en el despliegue de microservicios.
 
-- [Prólogo](./prologo.md)
+En el contenido de la investigación se puede encontran patrones para el
+despliegue de microservicios identificados en la literatura, prácticas 
+de una cultura DevOps como CI/CD, Administración de la configuración,
+entre otras.
 
-1. [Introducción](./introduccion/README.md)
-   1. [Fundamentos](./introduccion/fundamentos.md)
-   2. [Glosario](./introduccion/glosario.md)
-2. [Procesos](./procesos/README.md)
-   1. [Diseño](./procesos/diseno.md)
-   2. [Preparación de la plataforma](./procesos/preparacion-plataforma.md)
-3. [Diseño del despliegue](./diseno-despliegue/README.md)
-   1. [Arquitectura de un sistema de microservicios](./diseno-despliegue/arquitectura.md)
-   2. [Estrategia de despliegue](./diseno-despliegue/estrategia.md)
-   3. [Tecnologías de infraestructura](./diseno-despliegue/tecnologias-infraestructura.md)
-   4. [Configuración de servicios](./diseno-despliegue/configuracion.md)
-   5. [Observabilidad de servicios](./diseno-despliegue/observabilidad.md)
-4. [Administración del entorno de desarrollo](./admin-entorno-desarrollo/README.md)
-   1. [Administración de la configuración](./admin-entorno-desarrollo/admin-config.md)
-   2. [Control de versiones](./admin-entorno-desarrollo/control-versiones.md)
-   3. [Administración de la construcción](./admin-entorno-desarrollo/admin-construccion.md)
-   4. [Administración de artefactos](./admin-entorno-desarrollo/admin-artefactos.md)
-5. [Pipeline de despliegue](./pipeline-despliegue/README.md)
-   1. [Integración Continua CI](./pipeline-despliegue/integracion-continua.md)
-   2. [Implementación de sistema de CI](./pipeline-despliegue/servidor-ci.md)
-   3. [Automatización de liberaciones](./pipeline-despliegue/automatizacion-liberaciones.md)
-   4. [Entrega Continua CD](./pipeline-despliegue/entrega-continua.md)
-6. [Administración de la infraestructura](./infraestructura/README.md)
-   1. [Administración de la infraestructura](./infraestructura/admin-infra.md)
-   2. [Infraestructura como código](./infraestructura/infra-como-codigo.md)
+Actualmente la guia se encuentra en su primera versión por lo cual solo 
+se incluye información general de cada una de las prácticas sin profundizar
+en su implementación. En futuras versiones se agregará más información así
+como ejemplos de sus aplicaciones.

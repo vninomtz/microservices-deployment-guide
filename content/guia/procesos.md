@@ -1,27 +1,45 @@
 # Procesos para la adopción de microservicios
 
-Para darle un orden darle un orden al conjunto de tareas y actividades, se decidió realizar un modelado del proceso sugerido para la implementación de una arquitectura de microservicios. Para el modelado se usó SPEM, un estándar para definir procesos de software. Como se menciona en la especificación oficial [^4], SPEM permite proveer una representación estandarizada y bibliotecas de contenido reutilizable, soporta desarrollo sistemático, administración y crecimiento de procesos de desarrollo, soporte de despliegue de contenido de métodos y procesos necesitados por configuraciones definidas, entre otros.
+Para darle un orden darle un orden al conjunto de tareas y actividades, 
+se decidió realizar un modelado del proceso sugerido para la implementación
+de una arquitectura de microservicios. Para el modelado se usó SPEM, un
+estándar para definir procesos de software. Como se menciona en la especificación
+oficial [^4], SPEM permite proveer una representación estandarizada y bibliotecas
+de contenido reutilizable, soporta desarrollo sistemático, administración y
+crecimiento de procesos de desarrollo, soporte de despliegue de contenido de métodos
+y procesos necesitados por configuraciones definidas, entre otros.
 
 [^4]: [Software & systems process engineering meta-model specification](https://www.omg.org/spec/SPEM)
 
-El alcance de SPEM está limitado deliberadamente a los elementos mínimos necesarios para definir cualquier proceso de desarrollo de software y sistemas, sin añadir características específicas para dominios o disciplinas de desarrollo particulares.
+El alcance de SPEM está limitado deliberadamente a los elementos mínimos necesarios
+para definir cualquier proceso de desarrollo de software y sistemas, sin añadir
+características específicas para dominios o disciplinas de desarrollo particulares.
 
-SPEM utiliza la notación UML _Unified Modeling Language_, provee componentes que permiten representar de manera estandarizada métodos, ciclos de vida, roles, actividades, tareas y productos de trabajo que se usan en la ingeniería de software. Se utilizó en este documento la versión de SPEM 2.0, la cual se utiliza para definir los procesos de desarrollo de software, sistemas y sus componentes.
+SPEM utiliza la notación UML _Unified Modeling Language_, provee componentes que permiten
+representar de manera estandarizada métodos, ciclos de vida, roles, actividades, tareas y
+productos de trabajo que se usan en la ingeniería de software. Se utilizó en este documento
+la versión de SPEM 2.0, la cual se utiliza para definir los procesos de desarrollo de software,
+sistemas y sus componentes.
 
 ## Notación
 
 ![Notación de SPEM](./guia/images/SPEM_notacion.png)
 
-**Fase:** La fase representa un período significativo en un proyecto, que termina con un punto de control de gestión importante, un hito o un conjunto de
-Entregables.
+**Fase:** La fase representa un período significativo en un proyecto, que termina con un punto 
+de control de gestión importante, un hito o un conjunto de entregables.
 
-**Iteración:** La iteración agrupa un conjunto de Actividades anidadas que se repiten más de una vez. Representa un importante elemento estructurador para organizar el trabajo en ciclos repetitivos. El concepto de Iteración puede asociarse a diferentes reglas en diferentes métodos.
+**Iteración:** La iteración agrupa un conjunto de Actividades anidadas que se repiten más de una vez.
+Representa un importante elemento estructurador para organizar el trabajo en ciclos repetitivos.
+El concepto de Iteración puede asociarse a diferentes reglas en diferentes métodos.
 
-**Proceso:** Un proceso es una actividad especial que describe una estructura para determinados tipos de proyectos de desarrollo o partes de ellos.
+**Proceso:** Un proceso es una actividad especial que describe una estructura para determinados tipos
+de proyectos de desarrollo o partes de ellos.
 
 **Actividad:** Definición de un trabajo, elemento de planeación, una acción.
 
-**Tarea:** Una Definición de Tarea es un Elemento de Contenido de Método y una Definición de Trabajo que define el trabajo que realizan las instancias de Definición de Roles. Una Tarea está asociada a Productos de Trabajo de entrada y salida. Las entradas se diferencian en obligatorias y opcionales.
+**Tarea:** Una Definición de Tarea es un Elemento de Contenido de Método y una Definición de Trabajo
+que define el trabajo que realizan las instancias de Definición de Roles. Una Tarea está asociada a
+productos de Trabajo de entrada y salida. Las entradas se diferencian en obligatorias y opcionales.
 
 ## Proceso general
 
